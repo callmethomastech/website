@@ -4,7 +4,7 @@ Website I use for resume, portfolio, as well as a instructional blog.
 
 ## Description
 
-This website is meant to be a central location for all my stuff if it be youtube, github, resumes, blogs, tutorials and more.
+This is a static website I am programming to learn some things about web development as well as being a central hub for things such as my software developer journey, youtube channel, protfolio, resume, and instructional blogs.
 
 ## What I used / learned
 * 
