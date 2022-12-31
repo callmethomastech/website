@@ -1,4 +1,4 @@
-# [fadedelment.com](https://fadedelement.com)
+# [fadedelment.dev](https://fadedelement.dev)
 
 Website I use for resume, portfolio, as well as a instructional blog.
 
