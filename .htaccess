@@ -1,6 +1,5 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule pages/(.*)$ /$1 [L,R=301]
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule pages/^([^\.]+)$ $1.html [NC,L]
 
 DirectoryIndex index.html
