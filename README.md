@@ -9,6 +9,7 @@ This is a static website I am programming to learn some things about web develop
 ## What I used / learned
 * Host on GitHub Pages
 * Use a personal domain for github pages
+* 
 
 ## Authors
 
