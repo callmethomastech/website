@@ -1,9 +1,9 @@
 import React from "react";
 
-function projects() {
+function Contact() {
     return (
         <div></div>
     )
 }
 
-export default projects;
+export default Contact;

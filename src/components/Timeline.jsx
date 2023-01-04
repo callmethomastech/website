@@ -1,9 +1,9 @@
 import React from "react";
 
-function timeline() {
+function Timeline() {
     return (
         <div></div>
     )
 }
 
-export default timeline;
+export default Timeline;
