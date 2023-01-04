@@ -8,10 +8,17 @@ This is a website I am programming to learn some things about web development as
 
 ## What I used / learned
 * Host on GitHub Pages
-* Use a personal domain for github pages
-* Use Vite
-* Use React.js
-* Use Tailwind
+* Using a google domain for github pages website
+* Making a github build and deploy workflow
+* Using Vite.js
+* Using React.js
+* Use Tailwind CSS
+
+## Resources
+* [How to Build a Minimal Developer Portfolio Website Using React + Tailwind + Vite](https://www.youtube.com/watch?v=b0pkpcD8Ms4)
+* [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
+* [Vite.js Documentation](https://vitejs.dev/guide/)
+* [React.js Documenation](https://reactjs.org/docs/getting-started.html)
 
 ## Authors
 
