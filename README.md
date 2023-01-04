@@ -4,12 +4,14 @@ Website I use for resume, portfolio, as well as a instructional blog.
 
 ## Description
 
-This is a static website I am programming to learn some things about web development as well as being a central hub for things such as my software developer journey, youtube channel, protfolio, resume, and instructional blogs.
+This is a website I am programming to learn some things about web development as well as being a central hub for things such as my software developer journey, youtube channel, portfolio, resume, and instructional blogs.
 
 ## What I used / learned
 * Host on GitHub Pages
 * Use a personal domain for github pages
-* 
+* Use Vite
+* Use React.js
+* Use Tailwind
 
 ## Authors
 
