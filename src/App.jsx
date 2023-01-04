@@ -3,7 +3,7 @@ import Blog from './components/Blog'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Home from './components/Home'
-import Projects from './components/Projects'
+import Portfolio from './components/Portfolio'
 import Timeline from './components/Timeline'
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <Projects />
+      <Portfolio />
       <Blog />
       <Timeline />
       <Contact />
