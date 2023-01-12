@@ -5,17 +5,17 @@ import BlogItem from "./BlogItem";
 function Blog() {
     return (
         <div className="w-full flex justify-center mt-20">
-            <div> 
-                <div className="mb-3 text-xl font-medium grid grid-cols-2">
-                    <p>./Blog</p>
-                    <div className="text-right hover:cursor-pointer group">
-                        <span className="invisible group-hover:visible">&#123; </span>
+            <div className="max-w-3xl w-2/3"> 
+                <div className="mb-3 text-lg md:text-xl font-medium flex flex-row">
+                    <p className="grow">./Blog</p>
+                    <div className="w-fit hover:cursor-pointer group font-semibold italic">
+                        <span className="hidden group-hover:contents">&#123; </span>
                         <a href="" target="_blank">View Archive</a>
-                        <span className="invisible group-hover:visible"> &#125;</span>
+                        <span className="hidden group-hover:contents"> &#125;</span>
                     </div>
                 </div>
-                <div className="flex flex-row justify-center">
-                    <div className="grid gap-4">
+                <div className="flex flex-row md:flex-col justify-center">
+                    <div className="grid gap-4 w-full">
                         {articles.map(article => (
                             <BlogItem 
                                 title={article.title} 

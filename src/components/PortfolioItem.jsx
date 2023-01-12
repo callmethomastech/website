@@ -2,7 +2,7 @@ import React from "react";
 
 function PortfolioItem({ imgUrl, title, stack, link }) {
     return (
-        <div className="border-2 border-stone-900 rounded-md overflow-hidden relative w-65">
+        <div className="border-2 border-stone-900 rounded-md overflow-hidden">
             <img
                 src={imgUrl}
                 alt="portfolio item"
@@ -10,10 +10,10 @@ function PortfolioItem({ imgUrl, title, stack, link }) {
             />
             
             <div className="w-full p-4">
-                <div className="w-fit text-md md:text-lg mb-2 md:mb-3 font-semibold group">
-                    <span className="invisible group-hover:visible">&#123; </span>
+                <div className="w-fit text-md md:text-lg mb-2 md:mb-3 font-semibold italic group">
+                    <span className="hidden group-hover:contents">&#123; </span>
                     <a href={link} target="_blank">{title}</a>
-                    <span className="invisible group-hover:visible"> &#125;</span>
+                    <span className="hidden group-hover:contents"> &#125;</span>
                 </div>
                 
                 <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
