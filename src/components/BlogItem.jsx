@@ -12,7 +12,7 @@ function BlogItem({ title, date, description, link }) {
                     <span className="hidden group-hover:contents"> &#125;</span>
                 </div>
             </div>
-            <p className="mt-4">{description}</p>
+            <p className="mt-4 text-stone-500">{description}</p>
         </div>
     )
 }
