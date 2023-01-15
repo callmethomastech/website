@@ -15,7 +15,14 @@ module.exports = {
       },
       fontFamily: {
         inter: ["inter", "serif"]
-      }
+      },
+      colors: {
+        "space-cadet": "#273043",
+        "prussian-blue": "#2E3B54",
+        "independence": "#394A6A",
+        "mint-cream": "#F8FFF8",
+        "platinum": "#CCD1CB",
+      }, 
     },
   },
   plugins: [],

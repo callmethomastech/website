@@ -13,12 +13,6 @@ export default [
     },
     {
         year: "2021",
-        title: "Adobe Certifed in Visiual Design using Adobe Photoshop",
-        duration: "",
-        description: "Verified at verify.certiport.com with the code: wNdRT-2FBu"
-    },
-    {
-        year: "2021",
         title: "Burger King",
         duration: "1 year",
         description: "I started this job in July of 2020. That job taught me a lot about operating industrial cooking equipment and guest service as I was a cook and I worked as an order taker for drive through."

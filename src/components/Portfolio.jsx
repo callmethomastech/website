@@ -15,8 +15,8 @@ function Portfolio() {
                     </div>
                     
                 </div>
-                <div className="flex flex-col md:flex-row justify-center">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
+                <div className="flex justify-center">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-50">
                         {projects.map(project => (
                             <PortfolioItem 
                                 imgUrl={project.imgUrl} 
