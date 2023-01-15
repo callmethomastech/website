@@ -9,7 +9,7 @@ function PortfolioItem({ imgUrl, title, stack, link }) {
                 className="h-36 object-cover"
             />
             
-            <div className="p-4">
+            <div className="py-2">
                 <div className="w-fit text-md md:text-lg mb-2 md:mb-3 font-semibold italic group">
                     <span className="hidden group-hover:contents">&#123; </span>
                     <a href={link} target="_blank">{title}</a>

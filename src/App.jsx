@@ -1,6 +1,5 @@
 import React from 'react'
 import Blog from './components/Blog'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
@@ -14,7 +13,6 @@ function App() {
       <Portfolio />
       <Blog />
       <Timeline />
-      <Contact />
       <Footer />
     </div>
   )
