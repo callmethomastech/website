@@ -10,15 +10,11 @@ function PortfolioItem({ imgUrl, title, stack, link }) {
             />
             
             <div className="py-2">
-                <div className="w-fit text-md md:text-lg mb-2 md:mb-3 font-semibold italic group">
-                    <span className="hidden group-hover:contents">&#123; </span>
-                    <a href={link} target="_blank">{title}</a>
-                    <span className="hidden group-hover:contents"> &#125;</span>
-                </div>
+                <a href={link} target="_blank" className="font-bold hover:text-blue-green">{title}</a>
                 
                 <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
                     {stack.map(item => (
-                        <span className="inline-block px-2 py-1 font-semibold border-2 border-independence bg-independence rounded-2xl">
+                        <span className="flex flex-row text-dim-grey">
                             {item}
                         </span>
                     ))}
