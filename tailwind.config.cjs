@@ -14,14 +14,13 @@ module.exports = {
         "blinking": "blink 1s linear infinite"
       },
       fontFamily: {
-        inter: ["inter", "serif"]
+        inter: ["Open Sans", "sans-serif"]
       },
       colors: {
-        "space-cadet": "#273043",
-        "prussian-blue": "#2E3B54",
-        "independence": "#394A6A",
-        "mint-cream": "#F8FFF8",
-        "platinum": "#CCD1CB",
+        "blue-green": "#0abdd1",
+        "davys-grey": "#202020",
+        "jet-grey": "#181818",
+        "alice-blue": "#e6eaf0",
       }, 
     },
   },

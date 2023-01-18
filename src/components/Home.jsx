@@ -2,11 +2,30 @@ import React from "react";
 
 function Home() {
     return (
-        <div className="flex items-center justify-center flex-col text-center p-10">
-            <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-bold">$Thomas Henderson<span className="animate-blinking">_</span></h1>
-            <p className="text-base md:text-xl mb-3 font-medium">Software Engineer aka Professional Problem Solver</p>
-            <p className="text-sm max-w-xl mb-6 font-bold">I am hobbyist programmer honing my skill so I can do it professionally. I started programming because I was inspired by some of the old mojang dev talk videos about minecraft when I was younger. This got me interested in the world of programming so I decided to start programming software in java were I learned the basics and were I decided to branch out to other more versitile languages like python.</p>
+        <div>
+            <div className="flex flex-row gap-4 p-4 items-center bg-davys-grey">
+                <p className="text-xl grow"><span className="text-blue-green">&lt;/</span>fadedelement<span className="text-blue-green">&gt;</span></p>
+                <a href="#home" className="relative after:absolute after:content-[''] after:bg-blue-green after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[1px] after:rounded-xl after:duration-300 after:hover:w-[100%]">Home</a>
+                <a href="#test" className="relative after:absolute after:content-[''] after:bg-blue-green after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[1px] after:rounded-xl after:duration-300 after:hover:w-[100%]">Portfolio</a>
+                <a href="#" className="relative after:absolute after:content-[''] after:bg-blue-green after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[1px] after:rounded-xl after:duration-300 after:hover:w-[100%]">Blog</a>
+                <a href="#" className="relative after:absolute after:content-[''] after:bg-blue-green after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[1px] after:rounded-xl after:duration-300 after:hover:w-[100%]">Timeline</a>
+                <a href="#" className="relative after:absolute after:content-[''] after:bg-blue-green after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[1px] after:rounded-xl after:duration-300 after:hover:w-[100%]">Contact</a>
+            </div>
+            <div id="home" className="flex flex-col w-5/6 py-10 items-center mx-auto md:flex-row border-b-4 border-davys-grey">
+                <img className="w-[350px] h-fit" src="../../fadedelement.svg" />
+                <div className="pl-5">
+                    <h1 className="text-4xl md:text-4xl mb-1 md:mb-3 font-bold">$Thomas Henderson<span className="animate-blinking">_</span></h1>
+                    <p className="pb-4 pt-5 md:pt-0 font-semibold">Software Engineer aka Professional Problem Solver</p>
+                    <p>I am hobbyist programmer honing my skill so I can do it professionally. I started programming because I was inspired by some of the old mojang dev talk videos about minecraft when I was younger. This got me interested in the world of programming so I decided to start programming software in java were I learned the basics and were I decided to branch out to other more versitile languages like python.</p>
+                    <div className="flex flex-row gap-4 pt-4">
+                        <a href="https://www.youtube.com/c/FADEDElement" target="_blank"><svg className="fill-alice-blue" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg></a>
+                        <a href="https://github.com/FADEDElement" target="_blank"><svg className="fill-alice-blue" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        
     )
 }
 

@@ -8,12 +8,13 @@ import Timeline from './components/Timeline'
 function App() {
 
   return (
-    <div className="App bg-space-cadet text-mint-cream">
+    <div className="App bg-jet-grey text-alice-blue font-inter">
       <Home />
       <Portfolio />
-      <Blog />
+      {/*<Blog />
       <Timeline />
       <Footer />
+      */}
     </div>
   )
 }
