@@ -11,8 +11,8 @@ function App() {
     <div className="App bg-jet-grey text-alice-blue font-inter">
       <Home />
       <Portfolio />
-      {/*<Blog />
-      <Timeline />
+      <Blog />
+      {/*<Timeline />
       <Footer />
       */}
     </div>
