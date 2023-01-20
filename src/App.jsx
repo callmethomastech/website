@@ -1,5 +1,4 @@
 import React from 'react'
-import Blog from './components/Blog'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
@@ -11,10 +10,8 @@ function App() {
     <div className="App bg-jet-grey text-alice-blue font-inter">
       <Home />
       <Portfolio />
-      <Blog />
-      {/*<Timeline />
+      <Timeline />
       <Footer />
-      */}
     </div>
   )
 }

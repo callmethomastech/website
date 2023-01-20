@@ -21,7 +21,7 @@ module.exports = {
         "davys-grey": "#202020",
         "jet-grey": "#181818",
         "alice-blue": "#e6eaf0",
-        "dim-grey": "#67696A",
+        "dim-grey": "#787b7d",
       }, 
     },
   },

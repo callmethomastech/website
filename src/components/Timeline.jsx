@@ -4,9 +4,9 @@ import TimelineItem from "./TimelineItem";
 
 function Timeline() {
     return (
-        <div className="w-full flex justify-center mt-20">
-            <div className="max-w-3xl w-2/3">
-                <p className="mb-3 text-lg md:text-xl font-medium">./Timeline</p>
+        <div id="portfolio" className="w-full flex justify-center pt-4 ">
+            <div className="w-5/6 border-b-4 border-davys-grey"> 
+                <a className="mb-3 text-lg md:text-xl font-medium"><span className="text-blue-green">$</span>Timeline</a>
                 <div className="flex flex-col md:flex-row justify-center my-2">
                     <div className="w-full">
                         {events.map(item => (
