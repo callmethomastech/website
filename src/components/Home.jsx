@@ -12,7 +12,7 @@ function Home() {
                     <a href="#contact" className="relative after:absolute after:content-[''] after:bg-blue-green after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[1px] after:rounded-xl after:duration-300 after:hover:w-[100%]">Contact</a>
                 </div>
             </div>
-            <div id="home" className="flex flex-col w-5/6 pt-28 md:pt-20 pb-10 items-center mx-auto md:flex-row border-b-4 border-davys-grey">
+            <div id="home" className="flex flex-col w-5/6 min-h-screen h-fill pt-28 md:pt-20 pb-10 items-center mx-auto md:flex-row border-b-4 border-davys-grey">
                 <img className="w-[350px] h-fit" src="../../fadedelement.svg" />
                 <div className="pl-5">
                     <h1 className="text-4xl md:text-4xl mb-1 md:mb-3 font-bold py-5">$Thomas Henderson<span className="animate-blinking">_</span></h1>
