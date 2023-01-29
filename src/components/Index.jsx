@@ -1,15 +1,11 @@
 import React from 'react'
-import Footer from './components/Footer'
-import events from './data/events'
-import Navbar from './components/Navbar'
-import projects from './data/projects'
+import events from '../data/events'
+import projects from '../data/projects'
 
-function App() {
+function Index() {
 
   return (
-    <div className="App bg-jet-grey text-alice-blue font-inter">
-      <Navbar />
-
+    <div>
       <div id="home" className="flex flex-col w-5/6 min-h-screen h-fill pt-28 md:pt-20 pb-10 items-center mx-auto md:flex-row border-b-4 border-davys-grey">
           <img className="w-[350px] h-fit" src="../../fadedelement.svg" />
           <div className="pl-5">
@@ -37,7 +33,7 @@ function App() {
                               <img src={project.imgUrl} alt="portfolio item" className="object-cover w-full " />
                               
                               <div className="py-2">
-                                  <a className="font-bold text-base">{project.title}</a>
+                                  <p className="font-bold text-base text-alice-blue">{project.title}</p>
                                   
                                   <p className="flex flex-wrap gap-2 flex-row items-center justify-start">
                                       {project.stack.map(item => (
@@ -84,9 +80,8 @@ function App() {
                 </div>
             </div>
         </div>
-      <Footer />
     </div>
   )
 }
 
-export default App
+export default Index
