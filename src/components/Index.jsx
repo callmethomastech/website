@@ -33,7 +33,7 @@ function Index() {
                               <img src={project.imgUrl} alt="portfolio item" className="object-cover w-full " />
                               
                               <div className="py-2">
-                                  <p className="font-bold text-base text-alice-blue">{project.title}</p>
+                                  <p className="font-bold text-base">{project.title}</p>
                                   
                                   <p className="flex flex-wrap gap-2 flex-row items-center justify-start">
                                       {project.stack.map(item => (
