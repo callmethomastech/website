@@ -12,13 +12,15 @@ This is a website I am programming to learn some things about web development as
 * Making a github build and deploy workflow
 * Using Vite.js
 * Using React.js
-* Use Tailwind CSS
+* Using Tailwind CSS
+* Using React Router Dom
 
 ## Resources
 * [How to Build a Minimal Developer Portfolio Website Using React + Tailwind + Vite](https://www.youtube.com/watch?v=b0pkpcD8Ms4)
 * [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
 * [Vite.js Documentation](https://vitejs.dev/guide/)
 * [React.js Documenation](https://reactjs.org/docs/getting-started.html)
+* [React Router Documentation](https://reactrouter.com/en/main)
 
 ## Authors
 
