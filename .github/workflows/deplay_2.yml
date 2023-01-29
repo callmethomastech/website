@@ -1,4 +1,4 @@
-name: Lint
+name: Deploy V2
 on:
   push:
   pull_request:
@@ -12,4 +12,4 @@ jobs:
         with:
           fetch-depth: 0
       - run: npm install
-      - run: npm run lint
+      - run: npm run dev
