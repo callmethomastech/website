@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <div className="pt-4 pb-4 text-sm mt-1 pb-3 text-center">
+        <div className="py-4 text-sm mt-1 text-center">
             <p className="opacity-80 pb-2">
                 <a href="" target="_blank" className="hover:text-blue-green">YouTube · </a>
                 <a href="" target="_blank" className="hover:text-blue-green">GitHub · </a>
