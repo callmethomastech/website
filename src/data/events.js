@@ -1,5 +1,11 @@
 export default [
     {
+        year: "Present",
+        title: "Y-tec Keylex Toyetsu of Alabama",
+        duration: "0 years",
+        description: "I started this job in Febuary of 2024. I currently hold a position as a machine operator. "
+    },
+    {
         year: "2023",
         title: "Newman Technologies",
         duration: "2.3 years",
