@@ -8,7 +8,7 @@ export default [
     {
         year: "2023",
         title: "Newman Technologies",
-        duration: "2.3 years",
+        duration: "2.4 years",
         description: "I started this job in June of 2021. I held a position as a production line repair welder. This job has taught me a lot about working in a fast-paced environment, using industrial equipment, and more specifically evaluating, machine operation, quality inspection, and repair welding."
     },
     {

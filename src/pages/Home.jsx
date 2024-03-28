@@ -6,7 +6,7 @@ function Index() {
 
   return (
     <div>
-        <div id="home" className="flex flex-col w-5/6 min-h-screen h-fill pt-28 md:pt-20 pb-10 items-center mx-auto md:flex-row border-b-4 border-davys-grey">
+        <div className="flex flex-col w-5/6 min-h-screen h-fill pt-28 md:pt-20 pb-10 items-center mx-auto md:flex-row border-b-4 border-davys-grey">
             <img className="w-[350px] h-fit" src="../../fadedelement.svg" />
             <div className="pl-5">
                 <h1 className="text-4xl md:text-4xl mb-1 md:mb-3 font-bold py-5">$Thomas Henderson<span className="animate-blinking">_</span></h1>
@@ -19,7 +19,7 @@ function Index() {
                 </div>
             </div>
         </div>
-        <div id="portfolio" className="w-full flex justify-center">
+        <div className="w-full flex justify-center">
             <div className="w-5/6 border-b-4 border-davys-grey"> 
                 <div className="py-5 text-lg md:text-xl font-medium flex flex-row">
                     <p className="grow"><span className="text-blue-green">$</span>Portfolio</p>
@@ -50,8 +50,8 @@ function Index() {
                 </div>
             </div>
         </div>
-        <div id="timeline" className="w-full flex justify-center pt-5">
-                <div className="w-5/6 border-b-4 border-davys-grey"> 
+        <div className="w-full flex justify-center pt-5">
+                <div className="w-5/6"> 
                     <a className="text-lg md:text-xl font-medium"><span className="text-blue-green">$</span>Timeline</a>
                     <div className="flex flex-col md:flex-row justify-center py-5">
                         <div className="w-full">
