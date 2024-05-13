@@ -7,14 +7,14 @@ module.exports = {
       keyframes: {
         blink: {
           "0%, 100%": { opacity: "1" },
-          "50%": { opacity: "0" }
-        }
+          "50%": { opacity: "0" },
+        },
       },
       animation: {
-        "blinking": "blink 1s linear infinite"
+        blinking: "blink 1s linear infinite",
       },
       fontFamily: {
-        inter: ["Open Sans", "sans-serif"]
+        inter: ["Open Sans", "sans-serif"],
       },
       colors: {
         "blue-green": "#0abdd1",
@@ -22,8 +22,8 @@ module.exports = {
         "jet-grey": "#181818",
         "alice-blue": "#e6eaf0",
         "dim-grey": "#787b7d",
-      }, 
+      },
     },
   },
   plugins: [],
-}
+};
