@@ -6,11 +6,13 @@ function Index() {
 
   return (
     <div>
-        <div className="flex flex-col w-5/6 min-h-screen h-fill pt-28 md:pt-20 pb-10 items-center mx-auto md:flex-row border-b-4 border-davys-grey">
+        <div className="flex flex-col w-5/6 min-h-screen h-fill items-center mx-auto md:flex-row border-b-4 border-davys-grey">
             <img className="w-[350px] h-fit" src="../../fadedelement.svg" />
             <div className="pl-5">
-                <h1 className="text-4xl md:text-4xl mb-1 md:mb-3 font-bold py-5">$Thomas Henderson<span className="animate-blinking">_</span></h1>
+                <h1 className="text-4xl md:text-4xl mb-1 md:mb-3 font-bold">$Thomas Henderson<span className="animate-blinking">_</span></h1>
+
                 <p className="pb-4 md:pt-0 font-semibold">Hobbyist Programmer and Aspiring Maintenance Technician</p>
+                
                 <p>I am a hobbyist programmer honing my skills to solve long and complex problems. I also like spending my time building computers and working on cars as they are fun yet challenging tasks that help develop the way I think. I got into programming through some old Mojang dev talk videos about Minecraft when I was younger. Then as I got older I got into cars which led me to work on them.  As a result, I decided that I wanted to get a job in maintenance because it combines a little of everything that I already like to do.</p>
                 <div className="flex flex-row gap-4 pt-4">
                     <a href="https://www.youtube.com/c/FADEDElement" target="_blank"><svg className="fill-alice-blue hover:fill-blue-green" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg></a>
