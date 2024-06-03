@@ -1,14 +1,12 @@
 import React from "react";
 
 function Navbar() {
+  console.log(window.location.pathname)
+
   return (
-    <div className="flex flex-col p-4 items-center bg-davys-grey w-full md:flex-row z-10 fixed">
-      <p className="text-xl grow">
-        <span className="text-blue-green">&lt;/</span>fadedelement
-        <span className="text-blue-green">&gt;</span>
-      </p>
-      <div className="flex flex-row gap-4">
-        <a href="/" class="navbar--button">
+    <div>
+      <div className="flex flex-row gap-4 w-5/6 mx-auto border-b-4 border-davys-grey">
+        <a href="/" class="navbar--button ${window.location.pathname=="/" ? ".navbtn--selected" : ""}">
           Home
         </a>
         <a href="/portfolio" class="navbar--button">
@@ -16,9 +14,6 @@ function Navbar() {
         </a>
         <a href="/blog" class="navbar--button">
           Blog
-        </a>
-        <a href="/timeline" class="navbar--button">
-          Timeline
         </a>
       </div>
     </div>
