@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import NoPage from "./pages/NoPage";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (

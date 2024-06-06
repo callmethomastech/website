@@ -4,7 +4,9 @@ import events from "../data/events";
 function Index() {
   return (
     <div className="w-5/6 min-h-screen h-fill pt-28 md:pt-20 pb-10 items-center mx-auto">
+      {/* Resume Snippet */}
 
+      {/* Timeline */}
       <div className="w-full flex justify-center pt-5">
         <div>
           <a className="text-lg md:text-xl font-medium">
