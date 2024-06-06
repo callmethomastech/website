@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
@@ -12,6 +13,7 @@ function App() {
     <div className="App bg-jet-grey text-alice-blue font-inter">
       <Header />
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />

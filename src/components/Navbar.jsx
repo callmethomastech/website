@@ -1,21 +1,20 @@
 import React from "react";
+import { NavLink } from "react-router-dom"
 
 function Navbar() {
-  console.log(window.location.pathname)
-
   return (
     <div>
-      <div className="flex flex-row gap-4 w-5/6 mx-auto border-b-4 border-davys-grey">
-        <a href="/" class="navbar--button ${window.location.pathname=="/" ? ".navbtn--selected" : ""}">
+      <nav className="flex flex-row gap-4 w-5/6 mx-auto border-b-4 border-davys-grey">
+        <NavLink className={({ isActive }) => "navbar--button" + (isActive ? " navbtn--selected" : "")} end to="/">
           Home
-        </a>
-        <a href="/portfolio" class="navbar--button">
+        </NavLink>
+        <NavLink className={({ isActive }) => "navbar--button" + (isActive ? " navbtn--selected" : "")} end to="/portfolio">
           Portfolio
-        </a>
-        <a href="/blog" class="navbar--button">
+        </NavLink>
+        <NavLink className={({ isActive }) => "navbar--button" + (isActive ? " navbtn--selected" : "")} end to="/blog">
           Blog
-        </a>
-      </div>
+        </NavLink>
+      </nav>
     </div>
   );
 }
