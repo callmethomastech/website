@@ -2,9 +2,9 @@ export default [
   {
     year: "Present",
     title: "Y-tec Keylex Toyetsu of Alabama",
-    duration: "0 years",
+    duration: "4 months",
     description:
-      "I started this job in Febuary of 2024. I currently hold a position as a machine operator. ",
+      "I started this job in Febuary of 2024. I currently hold a position as a production team leader. This job has taught me a lot about what it takes to lead a team, and how much work it is to make sure everything runs safely and efficently. This job has also made me learn things such as taking inventory, planning producation, and much more.",
   },
   {
     year: "2023",
