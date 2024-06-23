@@ -26,7 +26,7 @@ This is a website I am programming to learn some things about web development as
 
 Contributors names and contact info
 
-[@FADEDElement](https://www.youtube.com/c/FADEDElement)
+[@Thomas Henderson](https://www.facebook.com/profile.php?id=100069452002819)
 
 ## License
 
